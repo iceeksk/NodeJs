@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{background: aqua;}
+        h1{font-size: 42px;}
+    </style>
+</head>
+<body>
+<h1>Welcome to the profile <%= person %></h1>
+<p>Age = <%= data.age %></p>
+<p>Job = <%= data.job %></p>
+<h2>Hobbies</h2>
+<ul>
+    <% data.hobbies.forEach((item) => { %>
+        <li><%= item %></li>
+    <% }) %>
+</ul>
+</body>
+</html>

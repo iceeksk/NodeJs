@@ -3,3 +3,5 @@ Node-lerning/node_modules
 Node-lerning/.idea/
 moriko/.idea/
 npm-debug-.log
+.idea/
+moriko/.build/

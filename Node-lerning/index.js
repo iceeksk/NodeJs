@@ -111,6 +111,7 @@ app.get('/', (req, res) => {
 	res.render('index')
 });
 app.get('/contact', (req, res) => {
+	console.log(req.query);
 	res.render('contact')
 });
 

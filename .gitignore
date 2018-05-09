@@ -1,5 +1,7 @@
 moriko/node_modules
-TodoNodeAngular/server/node_modules
+TodoNodeAngular/angular-client/node_modules
+TodoNodeAngular/express-server/node_modules
+todoNode/server/node_modules
 ToDo/node_modules
 Node-lerning/node_modules
 Node-lerning/.idea/

@@ -1,0 +1,22 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "express server for mern todo app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app_hooked.js"
+  },
+  "keywords": [
+    "express",
+    "server",
+    "todo",
+    "app"
+  ],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "mongoose": "^4.11.7",
+    "express": "^4.16.3"
+  }
+}
